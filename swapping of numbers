@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+int a=0,b=0;
+printf("enter your first no\n");
+scanf("%d",&a);
+printf("enter your second no\n");
+scanf("%d",&b);
+printf("your new first no is %d\n",b);
+printf("your new second no is %d\n",a);
+return 0;
+}
