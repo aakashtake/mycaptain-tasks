@@ -1,0 +1,51 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+int matrix[3][3];
+
+int i=0;
+
+int j=0;
+
+int sum=0;
+
+printf("Enter the entries for the required matrix: ");
+
+for(i=0;i<3;i++)
+
+{
+
+for(j=0;j<3;j++)
+
+{
+
+scanf("%d" ,&matrix[i][j]);
+
+}
+
+}
+
+printf("The required matrix is :%d" ,matrix);
+
+for(i=0;i<3;i++)
+
+{
+
+
+
+sum=sum+matrix[i][i];
+
+
+}
+
+printf("The sum of the principal diadonal elements is %d",sum);
+
+return 0;
+
+}
+
+
+
