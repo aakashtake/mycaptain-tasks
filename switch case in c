@@ -1,0 +1,56 @@
+#include<stdio.h>
+
+main()
+
+{
+
+printf("Today's menu: \n1.Pizza \n2.Burger \n3.Pasta \n4.French fries \n5.sandwich \nWhat would you prefer ?");
+
+int choice=0;
+
+scanf("%d",&choice);
+
+switch(choice)
+
+{
+
+case 1:
+
+printf("Pizza- $25");
+
+break;
+
+case 2:
+
+printf("Burger- $10");
+
+break;
+
+case 3:
+
+printf("Pasta- $15");
+
+break;
+
+case 4:
+
+printf("French fries- $12");
+
+break;
+
+case 5:
+
+printf("Sandwich- $8");
+
+break;
+
+default:
+
+printf("invalid choice");
+
+}
+
+return 0;
+
+}
+
